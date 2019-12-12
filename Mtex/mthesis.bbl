@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+
+\bibitem{alex_nips12}
+A.~Krizhevsky, I.~Sutskever, and G.E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems
+  25(NIPS'12)}, pages 1097--1105, 2012.
+
+\end{thebibliography}

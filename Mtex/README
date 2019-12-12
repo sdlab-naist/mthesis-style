@@ -1,0 +1,23 @@
+********* NAIST Thesis Template **********
+
+This is a TeX template to use in compiling NAIST Master's or Doctors theses.
+
+--- Preparation
+
+Before you compile the thesis, you will have to install two programs:
+1) platex
+2) dvipdfmx
+
+If you are on a Linux machine, you can install these both through the package manager for your system (for example apt-get for Ubuntu/Debian). If you are on Mac, they can both be installed using MacPorts or Brew.
+
+--- Compiling
+
+Once you have the files installed, you can compile the thesis by typing:
+$ make
+on the terminal.
+
+You can probably also use your favorite LaTeX GUI editor, but you will have to set the program used in compilation to be "platex" and "dvipdfmx".
+
+Older version of platex may bring text-encoding error. Try the latest version, or convert the encoding of *.tex and *.sty  files to EUC.
+
+Report an issue: <report-mdthesis-issue@is.naist.jp>
