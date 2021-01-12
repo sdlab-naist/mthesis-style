@@ -3,15 +3,12 @@
 %
 % mthesis.tex
 %
-%\documentclass[12pt,uplatex,dvipdfmx]{jsarticle} % Japanese
-\documentclass[12pt]{article} % English
-% if there are problems in the above regarding fonts, use this
-% \documentclass[UTF8]{ctexart}
+\documentclass[12pt,dvipdfmx]{jarticle} % Japanese
+% \documentclass[12pt]{article} % English
 
 \usepackage[utf8]{inputenc}
-%\usepackage{utf}
-%\usepackage{naist-jmthesis} %Japanese
-\usepackage{naist-mthesis} %English
+\usepackage{naist-jmthesis} %Japanese
+% \usepackage{naist-mthesis} %English
 
 \usepackage{graphicx}
 
@@ -371,7 +368,7 @@ This is a sample abstract. This is a sample abstract.
 
 \begin{figure*}[t]
  \centering
-% \includegraphics[width=0.8\textwidth,keepaspectratio,clip]{fig/cnn.eps}
+ \includegraphics[width=0.8\textwidth,keepaspectratio,clip]{fig/cnn.eps}
  \caption{Convolutional Neural Network (CNN)}
  \label{fig:CNN}
 \end{figure*}
